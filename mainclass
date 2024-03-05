@@ -30,7 +30,7 @@ public class MainClass {
             // Display student details
             System.out.println("Student details:\n" + student);
 
-            System.out.println("Do you want to enter another student? (yes[表情])");
+            System.out.println("Do you want to enter another student? ");
             String continueInput = scanner.nextLine().toLowerCase();
 
             if (!continueInput.equals("yes")) {
